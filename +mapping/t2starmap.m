@@ -117,5 +117,5 @@ customJet(1, :) = 0;
 colormap(customJet);
 
 % Save figure and associated data
-savefig(mapFigure, strcat('t2starmap_', subjectID), '.fig'));
+savefig(mapFigure, strcat('t2starmap_', subjectID, '.fig'));
 
