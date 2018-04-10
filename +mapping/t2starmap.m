@@ -17,6 +17,10 @@
 
 %% Config
 
+% Function imports
+import imgtools.imslice
+import imgtools.dicomload
+
 % Define image matrix size
 imageSize = [128 128 128];
 
@@ -28,7 +32,7 @@ shorterEchoTime = 0.200; % ms
 mapThreshHigh = 3;
 mapThreshLow = 0;
 
-subjectID = input('Enter the subject ID: ', 's'); % e.g. BT4
+subjectID = input('Enter subject information: ', 's'); % e.g. BT4
 
 
 %% Directory control
